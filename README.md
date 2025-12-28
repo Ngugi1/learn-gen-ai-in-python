@@ -10,9 +10,7 @@
 
     - Azure Open AI Credentials (can be found in a deployment of Azure Open AI resource)
         - AZURE_OPENAI_API_KEY = "<api_key>"
-        - AZURE_OPENAI_ENDPOINT = "<endpoint>"
         - AZURE_OPENAI_API_VERSION="<version>"
-        - AZURE_OPENAI_MODEL="<model>"
 
 2. Create a python3 environment using command `python3 -m venv .packages_env`
 3. Activate the just created `.packages_env` using command `source .packages_env/bin/activate`
