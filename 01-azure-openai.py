@@ -21,7 +21,7 @@ messages = [
 ]
 # Create a chat completion
 completion = client.chat.completions.create(
-    model=os.environ["AZURE_OPENAI_MODEL"],
+    model=os.environ["OPENAI_MODEL"],
     messages=messages,
 )
 
