@@ -55,7 +55,6 @@ def split_text(docs: str):
 
 # Index the documents
 def index_documents(docs):
-    vector_store = InMemoryVectorStore(embeddings)
     return vector_store.add_documents(docs)
 
 # Execute the RAG pipeline (Indexing)
